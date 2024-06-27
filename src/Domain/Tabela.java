@@ -1,2 +1,9 @@
-package Domain;public @interface Tabela {
+package Domain;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Tabela {
+    String nomeDaTabela();
 }
