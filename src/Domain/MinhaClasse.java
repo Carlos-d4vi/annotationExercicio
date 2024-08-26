@@ -1,2 +1,8 @@
-package Domain;public class MinhaClasse {
+package Domain;
+
+@Tabela(
+        nomeDaTabela = "tabela1"
+)
+public class MinhaClasse {
+
 }
